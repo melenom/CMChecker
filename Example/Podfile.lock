@@ -1,0 +1,16 @@
+PODS:
+  - CameraAndMicrophoneCheck (0.0.1)
+
+DEPENDENCIES:
+  - CameraAndMicrophoneCheck (from `../`)
+
+EXTERNAL SOURCES:
+  CameraAndMicrophoneCheck:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CameraAndMicrophoneCheck: 9e15b0c18eca23553738894955def3c64f680302
+
+PODFILE CHECKSUM: d8b08bca98f96174bdbe0e446e3d40594e9a1433
+
+COCOAPODS: 1.15.2
