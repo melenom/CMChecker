@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CMChecker'
-  s.version          = '0.0.1'
-  s.summary          = 'A short description of CameraAndMicrophoneCheck.'
+  s.version          = '0.0.2'
+  s.summary          = 'Camera and microphone permission check.'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
