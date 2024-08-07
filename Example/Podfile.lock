@@ -1,16 +1,16 @@
 PODS:
-  - CameraAndMicrophoneCheck (0.0.1)
+  - CMChecker (0.0.1)
 
 DEPENDENCIES:
-  - CameraAndMicrophoneCheck (from `../`)
+  - CMChecker (from `../`)
 
 EXTERNAL SOURCES:
-  CameraAndMicrophoneCheck:
+  CMChecker:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CameraAndMicrophoneCheck: 9e15b0c18eca23553738894955def3c64f680302
+  CMChecker: f4140d68fd0e46eb742abe209fc99c6e0720b464
 
-PODFILE CHECKSUM: d8b08bca98f96174bdbe0e446e3d40594e9a1433
+PODFILE CHECKSUM: 73ad406a46d3a3186de1a142d28c0873b6ef2d17
 
 COCOAPODS: 1.15.2
