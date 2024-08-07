@@ -8,9 +8,9 @@
 import Foundation
 import AVFoundation
 
-class CMChecker {
+public class CMChecker {
     private init() {}
-    static let shared = CMChecker()
+    public static let shared = CMChecker()
     typealias PermissionCompletionHandler = (Bool) -> Void
     
     private func requestMicrophonePermission(completion: @escaping PermissionCompletionHandler) {
@@ -69,7 +69,7 @@ class CMChecker {
         }
         return rootVC
     }
-    func check() -> Bool {
+    public func check() -> Bool {
         let m_state = checkMicrophonePermissionStatus()
         let c_state = checkCameraPermissionStatus()
         
