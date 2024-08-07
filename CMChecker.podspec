@@ -13,5 +13,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'pz' => 'melenom@163.com' }
   s.source           = { :git => 'https://github.com/melenom/CMChecker.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
+  s.requires_arc = true
+  s.swift_version = '5.0'
   s.source_files = 'CMChecker/Classes/**/*.{swift}'
 end
